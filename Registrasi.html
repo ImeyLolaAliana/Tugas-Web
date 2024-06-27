@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fomulir</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Belajar Web Desain">
+    <meta name="keywords" content="html,css,javascript">
+    <meta name="author" content="Imey Lola Aliana">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+    <h1>Fomulir Pendaftaran<br> STMIK KAPUTAMA T.A 2024/2025</h1>
+    </div>
+    <hr>  
+    <from action="">
+        <table>
+            <tr>
+                <td><strong>NIK :</strong>
+                <br><input style="width :50%;" type="text" name="nik">
+
+                <td><strong>Nama  Lengkap :</strong>
+                <br><input  style="width :90%;" type="text" name="nama_lengkap">
+             </td> 
+         </td>
+            </tr>
+            <tr>
+                <td><strong>Tempat/Tanggal Lahir :</strong></td>
+                    <tr>
+                        <td><input style="width: 50%;"  type="text" name="tempat_lahir"></td>
+                        <td colspan="10"><input style="width: 90%;"  type="date" name="tanggal_lahir"></td>
+                    </tr>   
+            </tr>
+            <tr>
+                <td><strong>Jenis Kelamin :</strong></td>
+                <tr>
+                    <td><input type="radio" id="lk" name="jenis kelamin" value="Laki-Laki">
+                    <label for="lk">Laki-Laki</label></td>
+                    <td><input type="radio" id="pr" name="jenis kelamin" value="Perempuan">
+                    <label for="pr">Perempuan</label></td>
+                </tr>
+            </tr>
+            <tr>
+                <td><strong> Status :</strong></td>
+                <tr>
+                    <td><input type="radio" id="mk" name="status" value="menikah">
+                    <label for="mk">Menikah</label></td>
+                    <td><input type="radio" id="bm" name="status" value="belum menikah" >
+                    <label for="bm">Belum Menikah</label></td>
+                </tr>
+            </tr>
+            <tr>
+                <td><strong>Agama :</strong></td>
+                <tr>
+                    <td>
+                    <input type="radio" id="agama" name="agama" value="islam">
+                    <label for="agama">Islam</label>
+                    <input type="radio" id="agama" name="agama" value="protestan">
+                    <label for="agama">Protestan</label>
+                
+                    <input type="radio" id="agama" name="agama" value="katolik">
+                    <label for="agama">Katolik</label>
+                    <input type="radio" id="agama" name="agama" value="hindu">
+                    <label fro="agama"> Hindu</label></td>
+                </tr>
+            </tr>
+                <tr>
+                    <td><input type="radio" id="agama" name="agama" value="buddha">
+                    <label for="agama">Buddha</label></td>
+
+                </tr> 
+            <tr>
+                <td><strong><label for="transportasi"> Alat transportasi :</label></strong><br>
+                <select name="transportasi">
+                    <option value="jalan kaki">Jalan Kaki</option>
+                    <option values="angkutan umum/bus/pete-pete">Angkutan Umun/bus/Pete-Pete</option>
+                    <option values="mobil/bus antar jemput">Mobil/Bus antar Jemput</option>
+                    <option values="Kereta Api">Kereta Api</option>
+                    <option values="ojek">Ojek</option>
+                    <option values="Andong/Bendi/Sado/Dokar/Delman/Becak">Andong/Bendi/Sado/Dokar/Delman/Becak</option>
+                    <option values="Perahu Penyebrangan/Rakit/Getek">Perahu Penyebrangan/Rakit/Getek</option>
+                    <option values="kuda">Kuda</option>
+                    <option values="sepeda">Sepeda</option>
+                    <option values="sepeda motor">Sepeda Motor</option>
+                    <option values="mobil pribadi">Mobil Pribadi</option>
+                    <option values="lainya">Lainya</option>
+                </select></td>
+    
+                <td><strong><label for="jenis tinggal">Jenis Tinggal :</label></strong><br>
+                    <select name="jenis tinggal">
+                        <option value="bersama orang tua">Bersama Orang Tua</option>
+                        <option value="wali">Wali</option>
+                        <option value="Asrama">Asrama</option>
+                        <option value="Panti Asuhan">Panti Asuhan</option>
+                        <option value="lainya">Lainya</option>
+                    </select></td>
+             </tr>
+            <tr>
+                <td><strong><label for="penerima kps">Penerima KPS :</label></strong><br>
+                <select name="penerima kps">
+                    <option value="tidak">Tidak</option>
+                    <option value="iya">Iya</option>
+                </select></td>
+        
+                <td><strong><label for="kewarganegaraan">Kewarganeraan :</label></strong><br>
+                <select name="kewarganegaraan">
+                    <option value="wni">WNI</option>
+                    <option value="wna">WNA</option>
+                </select></td>
+            </tr>
+            <tr>
+               <td><strong><label for="alamat">Alamat Lengkap(sesuai ktp) :</label></strong><br>
+                <textarea name="alamat" rows="4" cols="60"></textarea>
+
+               </td>
+            </tr>
+            <tr>
+                <td><strong>RT/RW :</strong><br>
+                    <input placeholder="RT" style="width :80px" type="text" name="rt">
+                    <input placeholder="RW" style="width :80px" type="text" name="rw">
+        
+                <td><strong>Jalan :</strong><br>
+                <input style="width: 350px;" type="text" name="jalan">
+                </td>
+            </td>
+            </tr>
+            <tr>
+                <td><strong><label for="angka">Kode Pos :</label></strong><br>
+                <input style="width: 350px;" type="number" id="kodepos" name="kodepos" min="1" max="100">
+            <td><strong>Kel/Desa :</strong><br>
+                <input style="width: 350px;" type="text" name="kel/des">
+            </td>
+            </td>
+            </tr>
+            <tr>
+                <td><strong>Dusun :</strong><br>
+                <input style="width: 350px;" type="text" name="dusun">
+                <td><strong>Kecamatan :</strong><br>
+                <input style="width: 350px;" type="text" name="kecamatan">
+            </td>
+            </td>
+            </tr>
+            <tr>
+                <td><strong>NPWP :</strong><br>
+                <input style="width: 350px;" type="text" name="npwp">
+                <td><strong><label for="angka" >Telp/Hp</label> :</strong><br>
+                <input style="width: 350px;" type="number" id="telp/hp" name="telp/hp" min="1" max="100">
+            </td>
+            </td>
+            </tr>
+            <tr>
+            <td><input style="width: 150;" type="hidden"></td>
+            <td><strong><label for="email">Email :</label></strong><br>
+            <input style="width: 350px;" type="email" id="email" name="email">      
+        </td>
+            </tr>
+            <tr>
+                <td><strong>Asal Sekolah :</strong><br>
+                    <input style="width: 400px;" type="text" name="asal sekolah">
+                </td>
+            </tr>
+            <tr>
+                <td><strong><label for="angka">NISN :</label></strong><br>
+                <input style="width: 350px;" type="number" id="nisn" name="nisn" min="1" max="100">
+            </td>
+            </tr>
+            <tr>
+                <td><strong>Jurusan :</strong><br>
+                <input style="width: 350px;" type="text" name="jurusan">
+            </td>
+            </tr>
+            <tr>
+                <td><strong><label for="alamat">Alamat :</label></strong><br>
+                <textarea name="alamat" rows="4" cols="60"></textarea>
+            </td>
+            </tr>
+            <tr>
+                <td><strong>Program Studi :</strong><br>
+                    <tr>
+                        <td>
+                        <input type="radio" id="programstudi" name="programstudi" value="teknikinformatika(S1)">
+                        <label for="programstudi">Teknik Informatika (S1)</label>
+                        <input type="radio" id="programstudi" name="programstudi" value="sisteminformasi(S1)">
+                        <label for="programstudi">Sistem Informasi (S1)</label>
+                        <input type="radio" id="programstudi" name="programstudi" value="manajemeninformatika(d3)">
+                        <label for="programstudi">Manajemen Informatika (D3)</label>
+                        <input type="radio" id="programstudi" name="programstudi" value="komputerisasiakuntansi(d3)">
+                        <label for="programstudi">Komputerisasi Akuntansi (D3)</label>
+                    </td>
+                    </tr>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Waktu Belajar :</strong><br>
+                    <tr>
+                        <td>
+                            <input type="radio" id="waktubelajar" name="waktubelajar" value="pagi">
+                            <label for="waktubelajar">Pagi</label>
+                            <input type="radio" id="waktubelajar" name="waktubelajar" value="sore">
+                            <label for="waktubelajar">Sore</label>
+                        </td>
+                    </tr>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td><strong>Pilihan Kelas</strong><br>
+                    <tr>
+                        <td>
+                        <input type="radio" id="pilihankelas" name="pilihankelas" value="reguler">
+                        <label for="pilihankelas">Reguler</label>
+                        <input type="radio" id="pilihankelas" name="pilihankelas" value="karyawan">
+                        <label for="pilihankelas">Karyawan</label>
+                        <input type="radio" id="pilihankelas" name="pilihankelas" value="kipkuliah">
+                        <label for="pilihankelas">Kip Kelas</label>
+                        </td>
+                    </tr>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Sumber Informasi Mengenai STMIK Kaputama</strong><br>
+                <tr>
+                    <td>
+                        <input type="radio" id="sumberinformasimengenaistmikkaputama" name="sumberinformasimengenaistmikkaputama"
+                         value="brosur/spanduk/poster">
+                         <label for="sumberinformasimengenaistmikkaputama">Brosur/Spanduk/Poster</label>
+                         <input type="radio" id="sumberinformasimengenaistmikkaputama" name="sumberinformasimengenaistmikkaputama"
+                         value="mediamassa">
+                         <label for="sumberinformasimengenaistmikkaputama">Media Massa</label>
+                         <input type="radio" id="sumberinformasimengenaistmikkaputama" name="sumberinformasimengenaistmikkaputama"
+                         value="teman/saudara">
+                         <label for="sumberinformasimengenaistmikkaputama">Teman/Saudara</label>
+                         <input type="radio" id="sumberinformasimengenaistmikkaputama" name="sumberinformasimengenaistmikkaputama"
+                         value="sosmed">
+                         <label for="sumberinformasimengenaistmikkaputama">Sosmed</label>
+                    </td>
+                </tr>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio">
+                    <input placeholder="lain-lain" style="width :350px" type="text" name="lain-lain">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="memastikandata" name="memastikandata" value="memastikandatadenganbenar">
+                    <label for="desainweb">saya telah memastikan data yang saya isi sudah benar</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="simpan"></td>
+            </tr>
+
+        </tr>
+
+        </table>
+    </from>
+</body>
+</html>
